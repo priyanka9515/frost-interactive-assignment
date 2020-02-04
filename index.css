@@ -1,0 +1,30 @@
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column {
+  float: left;
+  width: 250px;
+  padding: 5px;
+  color: #8492a6;
+  font-family: "arial";
+}
+.color {
+  color: #8492a6;
+}
+
+.container {
+  margin: 10px;
+}
+th,
+td {
+  text-align: left;
+  padding: 10px;
+}
+.margin {
+  margin-left: 30px;
+}
+body {
+  font-family: "arial";
+}
